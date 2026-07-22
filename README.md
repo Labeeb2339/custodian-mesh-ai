@@ -2,11 +2,11 @@
 
 ![CustodianMesh AI social preview](public/custodian-mesh-social.png)
 
-CustodianMesh AI is a full-stack TypeScript demonstration of policy-gated,
-federated decision support. It routes a typed request to three simulated
-agency-owned nodes—agriculture, energy, and biodiversity—then releases only
-approved regional aggregates with provenance, denied-field reporting, and an
-inspectable audit trace.
+I built CustodianMesh AI as a full-stack TypeScript demonstration of
+policy-gated, federated decision support. It routes a typed request to three
+simulated agency-owned nodes—agriculture, energy, and biodiversity—then releases
+only approved regional aggregates with provenance, denied-field reporting, and
+an inspectable audit trace.
 
 The default path is deterministic and runs without a model, API key, paid
 service, database, or real agency data. Every record and agency name in the
