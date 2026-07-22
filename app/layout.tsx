@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/custodian-mesh-social.png",
-        width: 1733,
+        width: 1731,
         height: 909,
         alt: "Three independent data custodians connected through a central policy gateway",
       },

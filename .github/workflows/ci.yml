@@ -39,6 +39,9 @@ jobs:
       - name: Lint
         run: npm run lint
 
+      - name: Verify README evidence
+        run: npm run evidence:check
+
       - name: Run deterministic policy and API tests
         run: npm test
 
