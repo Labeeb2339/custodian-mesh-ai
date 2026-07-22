@@ -50,6 +50,21 @@ The project is informed by, but is not affiliated with:
 - Responsive dashboard and JSON API routes
 - Automated type, unit, policy, build, and rendered-output checks
 
+## Fixed evaluation evidence
+
+![CustodianMesh fixed policy evaluation matrix](public/custodian-evaluation.svg)
+
+Each tile is one maintained evaluation case; its colour records the expected
+verdict and the check mark means the implementation produced the complete
+expected behaviour, including instrumented node calls and provenance state.
+The 30-case `eval-1.0` suite currently passes with zero unexpected capability
+calls. It is a deterministic regression harness for these declared cases, not
+a claim that the prototype resists unseen attacks or is production-ready.
+
+Regenerate the figure with `npm run evidence:render`. The normal
+`npm run check` pipeline includes `npm run evidence:check`, so the committed SVG
+cannot silently drift from `lib/evaluations.ts`.
+
 ## Run locally
 
 Prerequisites: Node.js `>=22.13.0` and npm.
